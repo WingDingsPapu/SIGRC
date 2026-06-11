@@ -3,14 +3,13 @@ public class Cliente {
     private String codigo;
     private String nombreCliente;
 
-
-    public Cliente(String codigo, String nombre) {
+    public Cliente(String codigo, String nombreCliente) {
         this.codigo = codigo;
-        this.nombre = nombre;
+        this.nombreCliente = nombreCliente;
     }
 
     public void mostrarDatos() {
         System.out.println("Código: " + codigo);
-        System.out.println("Nombre: " + nombre);
+        System.out.println("Nombre: " + nombreCliente);
     }
 }
