@@ -1,7 +1,7 @@
 public class Cliente {
 
     private String codigo;
-    private String nombre;
+    private String nombreCliente;
 
     public Cliente(String codigo, String nombre) {
         this.codigo = codigo;
