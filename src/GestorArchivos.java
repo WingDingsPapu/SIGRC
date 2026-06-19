@@ -54,13 +54,15 @@ public class GestorArchivos {
                 String[] datos =
                         linea.split(";");
 
-                Cliente cliente =
+                if(datos.length == 3) {
+                        Cliente cliente =
                         new Cliente(
                                 datos[0],
                                 datos[1],
                                 datos[2]);
 
                 clientes.add(cliente);
+                }
             }
 
         } catch(IOException e) {

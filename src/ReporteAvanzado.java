@@ -7,7 +7,12 @@ public class ReporteAvanzado {
                 "\n===== REPORTE AVANZADO =====");
 
         System.out.println(
-                "Cantidad de clientes: "
+                "Total de clientes: "
                 + gestor.cantidadClientes());
+
+        System.out.println(
+                "\nListado de clientes:");
+
+        gestor.mostrarClientes();
     }
 }
