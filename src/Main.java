@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
     private static final String ARCHIVO =
             "clientes.txt";
 
@@ -289,7 +288,7 @@ public class Main {
         String email =
                 sc.nextLine();
 
-        if(!validador.ValidacionEmail(email)) {
+        if(!validador.validarEmail(email)) {
                 System.out.println("Email inválido");
                 return;
         }        
